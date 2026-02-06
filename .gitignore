@@ -1,0 +1,23 @@
+# Keil生成的中间文件
+*.o
+*.d
+*.crf
+*.axf
+*.htm
+*.dep
+*.lnp
+*.bak
+*.lst
+*.map
+
+# 忽略 Objects 和 Listings 文件夹（Keil默认输出目录）
+Objects/
+Listings/
+
+# VS Code 配置（可选，如果你不想上传你的编辑器配置）
+.vscode/
+
+#souce insight生成的中间文件
+si/
+SI/
+Si/
